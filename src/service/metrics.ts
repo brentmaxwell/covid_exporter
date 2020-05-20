@@ -8,9 +8,14 @@ const keyNameMapping = {
   casesPerOneMillion: 'cases_per_one_million',
   critical: 'critical_total',
   deaths: 'deaths_total',
+  deathsPerOneMillion: 'deathsPerOneMillion',
+  tests: 'tests',
+  testsPerOneMillion: 'testsPerOneMillion',
   recovered: 'recovered_total',
   todayCases: 'today_cases_total',
   todayDeaths: 'today_deaths_total',
+  updated: 'updated',
+
 }
 
 export default class MetricsProvider {
